@@ -1,0 +1,20 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+  text-decoration: none;
+  color: navy;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  align-items: flex-start;
+  border: 1px solid black;
+}
